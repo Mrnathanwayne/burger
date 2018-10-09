@@ -1,7 +1,7 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 var exphbs = require("express-handlebars");
-var routes = require("./controllers/burgerscontroller.js");
+var routes = require("./controllers/burgersController.js");
 
 
 var PORT = process.env.PORT || 8080;
